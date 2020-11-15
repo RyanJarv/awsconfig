@@ -5,9 +5,9 @@
     "Description": "NonDefaultMetadataServer",
     "SourceRuntime": "python3.8",
     "CodeKey": "NonDefaultMetadataServer.zip",
-    "InputParameters": "{\"desiredInstanceType\": \"t2.micro\"}",
+    "InputParameters": "{\"routes\": [\"169.254.169.254/32\"]}",
     "OptionalParameters": "{}",
-    "SourceEvents": "AWS::EC2::Instance"
+    "SourceEvents": "AWS::EC2::RouteTable"
   },
   "Tags": "[]"
 }

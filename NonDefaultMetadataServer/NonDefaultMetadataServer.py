@@ -64,6 +64,8 @@ def evaluate_compliance(event, configuration_item, valid_rule_parameters):
     # Add your custom logic here. #
     ###############################
 
+    print("[INFO] Processing configuration item: {}".format(configuration_item))
+
     for route in configuration_item['configuration']['routes']:
         event_cidr: ipaddress.IPv4Network = ipaddress.ip_network(route['destinationCidrBlock'])
 
