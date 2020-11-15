@@ -1,0 +1,9 @@
+# NOTE: This can be used for running tests directly, it is not used by the rdk however
+boto3==1.16.18
+botocore==1.19.18
+jmespath==0.10.0
+mock==3.0.5
+python-dateutil==2.8.1
+s3transfer==0.3.3
+six==1.15.0
+urllib3==1.26.2

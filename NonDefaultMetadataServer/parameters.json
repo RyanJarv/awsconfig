@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "NonDefaultMetadataServer",
+    "Description": "NonDefaultMetadataServer",
+    "SourceRuntime": "python3.8",
+    "CodeKey": "NonDefaultMetadataServer.zip",
+    "InputParameters": "{\"desiredInstanceType\": \"t2.micro\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance"
+  },
+  "Tags": "[]"
+}
